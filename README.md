@@ -17,6 +17,7 @@ You must add the below snippet in maven pom.xml
 In order to use share location feature call ChatServer class.
 
 ````java
-    ChatServer ch =new ChatServer();
-		ch.getServer(portNumber);
+	ChatServer ch =new ChatServer(filePath);
+	ch.getServer(portNumber);
 ````
+where filePath is the location of the GeoLiteCity.dat.
