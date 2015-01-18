@@ -15,7 +15,7 @@ You must add the below snippet in maven pom.xml
   </dependencies>
 ````
 ### ChatServer.java
-In order to use share location feature call ChatServer class.
+In order to use location sharing feature instantiate ChatServer class.
 
 ````java
 	ChatServer chatServer =new ChatServer(filePath);
